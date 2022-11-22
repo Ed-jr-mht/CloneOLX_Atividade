@@ -49,7 +49,7 @@ const Page = () => {
     setDisabled(true);
     setError('');
     if (password !== confirmPassword) {
-        setError("Senhas não batem");
+        setError("Senhas Incompatíveis");
         setDisabled(false);
         return;
     }
@@ -79,7 +79,7 @@ const Page = () => {
                 <form onSubmit={handleSubmit}>
                     <label className="area">
                         <div className="area--title">
-                            Nome Inteiro : 
+                            Noma Inteiro :
                         </div>
                         <div className="area--input">
                             <input 
@@ -144,7 +144,7 @@ const Page = () => {
                     </label>
                     <label className="area">
                         <div className="area--title">
-                            Reconfirme a Senha
+                            Reconfirmar a Senha
                         </div>
                         <div className="area--input">
                             <input 
@@ -164,7 +164,7 @@ const Page = () => {
                     </label>
                 </form>
 
-                <PageTitle> Suas Atualizações de Ad</PageTitle>
+                <PageTitle>Suas Atualizações de Ad</PageTitle>
                 <div className="list">
                     {
                     adList.map((i, k) =>

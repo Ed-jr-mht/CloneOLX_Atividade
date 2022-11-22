@@ -117,7 +117,7 @@ export const OthersArea = styled.div`
     }
 `;
 
-export const BreadChumb = styled.div`
+export const BreadChump = styled.div`
     font-size: 13px;
     margin-top: 20px;
 
